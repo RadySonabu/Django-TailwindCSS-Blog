@@ -26,7 +26,7 @@ DJANGO_CORE_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
 ]
-THIRD_PARTY_APPS = ["crispy_forms",]
+THIRD_PARTY_APPS = ["crispy_forms", 'widget_tweaks',]
 MY_APPS = [
     "apps.users",
 ]
