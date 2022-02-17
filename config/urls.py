@@ -8,11 +8,8 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    # path('login/', include("django.contrib.auth.views.login", {'template_name': 'login.html'})),
-    # path('logout/', include("django.contrib.auth.views.logout", {'next_page': '/login/'})),
-    # path('', include("django.contrib.auth.urls")),
-    path('', include("apps.users.urls")),
     path('', include("apps.main.urls")),
+    path('', include("apps.users.urls")),
 ]
 
 
